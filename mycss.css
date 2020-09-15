@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+
+	background-color:#52031e;
+	width:800px;
+	height:650px;
+	margin:0px auto;
+	}
+#main{
+	width:750px;
+	height:600px;
+	
+	margin:0px auto;
+
+	}
+
+#header{
+	width:750px;
+	height:93px;
+
+	
+	}
+#header img{
+	float:left;
+	}
+#menu{
+	width:750px;
+	height:30px;
+	background-color:#ff8b0f;
+	border-top:1px solid #FFF;
+	border-bottom::1px solid #FFF;
+	}
+#menu ul{
+	margin:0px;
+	padding:0px;
+	height:20px;
+	line-height:20px;
+	
+	}
+#menu ul li{
+	list-style:none;
+	float:left;
+	margin-top:5px;
+	
+	}
+#menu ul li a{
+	text-decoration:none;
+	display:block;
+	padding:0px 15px 0px 15px;
+	color:#FFF;
+	border-right:1px solid #FFF;
+	}
+#feed{
+	width:750px;
+	height:530px;
+	
+	}
+#feed #feed_left{
+	width:168px;
+	height:530px;
+	
+	float:left;
+	background-image:url(Images/nen.gif);
+	background-repeat:repeat-y;
+	}
+#feed #feed_left #feed_menu{
+	margin:15px;
+	
+	}
+#feed #feed_left #feed_anh{
+	margin: 15px 0px 15px 10px;
+	}
+#feed #feed_left #feed_seach{
+	margin:15px 0px 15px 20px;
+	}
+#feed #feed_left #feed_login{
+	margin:30px 0px 15px 20px;
+	color:#FFF;
+	}
+#feed #feed_left #feed_login p{
+	margin:0px;
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}
+#feed #feed_left .button{
+	background-color:#922722;
+	margin-left:25px;
+	color:#FFF;
+	border:1px solid #CCC;
+	}
+#feed #feed_right{
+	width:582px;
+	height:530px;
+	color:#CF3;
+	float:left;
+	}
+#footer{
+	width:750px;
+	height:30px;
+	background-color:#8a0632;
+	}
+#footer img{
+	float:left;
+	margin-left:50px;
+	}
+#footer p{
+	float:left;
+	margin-top:5px;
+	font-size:14px;
+	color:#CCC;
+	}
